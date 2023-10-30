@@ -1,0 +1,1 @@
+{"mappings":"AAAA,wBAAwB;AACxB,EAAE,UAAU,KAAK,CAAC;IACd,EAAE,YAAY,OAAO;AACvB","sources":["src/Courses/rating.js"],"sourcesContent":["// Rating Initialization\n$(document).ready(function() {\n    $('#rateMe1').mdbRate();\n  });"],"names":[],"version":3,"file":"course.bb3c27dc.js.map","sourceRoot":"/__parcel_source_root/"}
