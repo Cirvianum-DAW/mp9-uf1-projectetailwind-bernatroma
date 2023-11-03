@@ -259,6 +259,10 @@ img, video {
   margin-left: .75rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .ml-\[12\.5\%\] {
   margin-left: 12.5%;
 }
@@ -297,6 +301,42 @@ img, video {
 
 .mt-\[5\%\] {
   margin-top: 5%;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-\[10\%\] {
+  margin-left: 10%;
+}
+
+.mr-\[10\%\] {
+  margin-right: 10%;
+}
+
+.mr-\[15\%\] {
+  margin-right: 15%;
+}
+
+.ml-\[15\%\] {
+  margin-left: 15%;
+}
+
+.mt-\[10\%\] {
+  margin-top: 10%;
+}
+
+.mt-\[7\%\] {
+  margin-top: 7%;
+}
+
+.mt-\[6\%\] {
+  margin-top: 6%;
+}
+
+.mt-2 {
+  margin-top: .5rem;
 }
 
 .flex {
@@ -399,6 +439,11 @@ img, video {
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -418,37 +463,13 @@ img, video {
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
 }
 
-@media (width >= 640px) {
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-}
-
-@media (width >= 768px) {
-  .md\:flex-row {
-    flex-direction: row;
-  }
-}
-
 @media (width >= 1024px) {
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:flex-col-reverse {
-    flex-direction: column-reverse;
-  }
-
   .lg\:gap-12 {
     gap: 3rem;
   }
 }
 
 @media (width >= 1280px) {
-  .xl\:flex-row {
-    flex-direction: row;
-  }
-
   .xl\:gap-16 {
     gap: 4rem;
   }
